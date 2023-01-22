@@ -5,7 +5,7 @@ class MallardDuck : Quackable {
   private val observable: Observable = Observable(this)
 
   override fun quack() {
-    println("Quack")
+    println("MallardDuck: Quacked")
     notifyObservers()
   }
 
